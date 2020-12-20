@@ -1,30 +1,22 @@
 {% extends 'HomeIndex/HomeIndex.base.html' %}
 {% load static %}
 
-
+ 
 {% block block_content %}
-
-    <div class="row" style="padding-top : 200px;padding-left : 300px;width : 80%;"> 
-        <div class="col" style="padding-left : 100px;"> 
+    <div style="width : 100%;"> 
+    <div class="row" style="padding-top : 200px;padding-left : 100px;width : 100%;"> 
+        <div class="col" style="padding-left : 100px;width : 20%;"> 
             <img src="{% static 'images/mukesh_sahani.jpeg' %}" class="MyImage" alt="...">
         </div> 
-        <div class="col" style="background-color : #575766;border-radius : 50px;padding-left : 50px;height : 600px;width : 200px;margin-top : -100px;"> 
-          <p class="intro_text"> 
-          I am Mukesh Sahani, currently doing my B.E. in CSE from 
-          <b>Chandigarh College of Engineering and Technology</b>. 
-          programming language proficiency are in python, java, cpp, scala, javascript.
-          <br/>
-          Expertise in data science, deep learning, system programming and Linux system adminstration. 
-          <br/> 
-
-
-          </p> 
+        <div class="col" style="padding-top : 150px;width : 60%;margin-left : -300px;"> 
+          <a href="https://github.com/MkshSahani"><img class="logoImages" src="{% static 'images/github.png' %}"> </img></a> 
+          <a href="https://www.hackerrank.com/mkshsahani852"><img class="logoImages" src="{% static 'images/hackerrank.png' %}"> </img></a>
+          <a href="https://www.linkedin.com/in/mukesh-sahani-27297318b/"><img class="logoImages" src="{% static 'images/linkdin.png' %}"> </img></a>  
         </div> 
     </div> 
-
-    <div class="container"> 
-        <h1 class="h1" style="padding-left : 120px;color:white;"> 
+    </div> 
+ 
+        <h1 class="h1" style="color:white;margin-left : 250px;margin-top : 10px;"> 
             mukesh sahani 
         </h1> 
-    </div> 
 {% endblock %}  
