@@ -1,0 +1,35 @@
+body {
+    background-color:#555478;
+}
+
+.MainNav { 
+  margin-top : -10px;
+  padding-bottom : 0px;   
+}
+
+
+.NavBar {
+    background-color: black;
+    color : white;
+}
+
+.NavBarContent {
+    color:white;
+    font-size : 24px;
+    margin-left : 20px;
+}
+
+
+
+.MyImage {
+    height : 400px; 
+    width : 400px; 
+    border-radius: 200px;
+}
+
+.intro_text {
+    margin-top: 150px;;
+    color: white; 
+    padding : 20px;
+    font-size: 20px;
+}
