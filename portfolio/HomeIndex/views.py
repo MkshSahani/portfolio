@@ -15,6 +15,8 @@ def projectsPageRender(request):
     # fetch the list of all projects. 
     context = {} # feed data need to send in it. 
     projects = Projects.objects.all() # get all projects 
-
+    project_list = [project for project in projects] # get the list of projects. 
+    context['project_list'] = project_list # add the project list in the context of project list. 
     return render(request, 'HomeIndex/HomeIndex.projects.html', context) # responce 
 
+ 
